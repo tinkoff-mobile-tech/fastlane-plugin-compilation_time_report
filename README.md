@@ -20,8 +20,6 @@ Generate custom HTML report compilation time of each Swift func
 
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`.
 
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
-
 ## Run tests for this plugin
 
 To run both the tests, and code style validation, run
