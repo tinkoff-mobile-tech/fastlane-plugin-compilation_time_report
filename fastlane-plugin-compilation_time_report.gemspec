@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'i.v.vasilenko@tinkoff.ru'
 
   spec.summary       = 'Generate custom HTML report compilation time of each Swift func'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-compilation_time_report"
+  spec.homepage      = "https://github.com/TinkoffCreditSystems/fastlane-plugin-compilation_time_report"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
