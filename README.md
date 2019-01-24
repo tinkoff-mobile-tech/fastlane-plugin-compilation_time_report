@@ -14,7 +14,7 @@ fastlane add_plugin compilation_time_report
 
 Generate custom HTML report compilation time of each Swift func
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+![Example](https://github.com/TinkoffCreditSystems/fastlane-plugin-compilation_time_report/blob/master/assets/report_example.png?raw=true)
 
 ## Example
 
