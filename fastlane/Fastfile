@@ -1,0 +1,18 @@
+lane :test do
+  # 1.
+  xcodebuild(
+    workspace: "Project.xcworkspace",    
+    clean: true,
+    build: true,
+    destination: "generic/platform=iOS",
+    build_settings: {
+      "CODE_SIGNING_REQUIRED" => "NO",
+      "CODE_SIGN_IDENTITY" => "",
+      "OTHER_SWIFT_FLAGS" => "-Xfrontend -debug-time-function-bodies"
+    },
+    buildlog_path: "fastlane/logs"
+  )
+  
+  # 2.
+  compilation_time_report(time_limit: 150, source_pathes: ["Sources/Classes"], xcodebuild_log_path: "fastlane/logs/xcodebuild.log")
+end
