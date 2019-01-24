@@ -1,6 +1,6 @@
 # compilation_time_report plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-compilation_time_report)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-compilation_time_report) [![Gem Version](https://badge.fury.io/rb/fastlane-plugin-compilation_time_report.svg)](https://badge.fury.io/rb/fastlane-plugin-compilation_time_report)
 
 ## Getting Started
 
