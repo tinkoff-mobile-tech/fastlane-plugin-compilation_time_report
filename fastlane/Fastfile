@@ -1,9 +1,10 @@
 lane :test do
   # 1.
   xcodebuild(
-    workspace: "Project.xcworkspace",    
+    workspace: "TestProject/TestProject.xcworkspace",    
     clean: true,
     build: true,
+    scheme: "TestProject",
     destination: "generic/platform=iOS",
     build_settings: {
       "CODE_SIGNING_REQUIRED" => "NO",
@@ -14,5 +15,5 @@ lane :test do
   )
   
   # 2.
-  compilation_time_report(time_limit: 150, source_pathes: ["Sources/Classes"], xcodebuild_log_path: "fastlane/logs/xcodebuild.log")
+  compilation_time_report(time_limit: 0.00, source_pathes: ["TestProject"], xcodebuild_log_path: "fastlane/logs/xcodebuild.log")
 end
