@@ -7,7 +7,7 @@ require 'fastlane/plugin/compilation_time_report/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-compilation_time_report'
   spec.version       = Fastlane::CompilationTimeReport::VERSION
-  spec.author        = 'i.v.vasilenko'
+  spec.author        = 'Tinkoff.ru'
   spec.email         = 'i.v.vasilenko@tinkoff.ru'
 
   spec.summary       = 'Generate custom HTML report compilation time of each Swift func'
